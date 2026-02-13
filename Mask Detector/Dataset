@@ -1,0 +1,6 @@
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("belsonraja/face-mask-dataset-with-and-without-mask")
+
+print("Path to dataset files:", path)
